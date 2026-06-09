@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Varun Tyagi - Software Developer & B.Tech CSE Student. Premium portfolio showcasing projects, skills, and development journey.">
+    <meta name="keywords"
+        content="Varun Tyagi, Software Developer, B.Tech CSE, Portfolio, Full Stack, Java, JavaScript">
+    <title>Varun Tyagi - Software Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark-mode">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="navbar-logo">VT</a>
+            <div class="navbar-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- SECTION 1: HERO -->
+    <section id="hero" class="hero">
+        <div class="section-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Varun Tyagi</h1>
+                <p class="hero-subtitle">Software Developer & B.Tech CSE Student</p>
+
+                <p class="hero-description">I build elegant, performant web applications with a focus on clean code and
+                    user experience. Passionate about full-stack development, algorithms, and creating developer-centric
+                    products.</p>
+
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+
+                <div class="hero-socials">
+                    <a href="https://github.com/VARUNTYAGI3" target="_blank" class="social-icon" title="GitHub">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                            <path
+                                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.015 12.015 0 0024 12c0-6.63-5.37-12-12-12z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/varun-tyagi-149428281/" target="_blank" class="social-icon"
+                        title="LinkedIn">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                            <path
+                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.474-2.237-1.776-2.237-1.088 0-1.737.722-2.019 1.429-.104.252-.13.604-.13.955v5.422h-3.554s.05-8.736 0-9.646h3.554v1.364c.43-.665 1.195-1.611 2.905-1.611 2.12 0 3.71 1.386 3.71 4.365v5.528zM5.337 8.855c-1.144 0-1.915-.758-1.915-1.708 0-.955.771-1.71 1.96-1.71 1.188 0 1.913.754 1.938 1.71 0 .95-.75 1.708-1.983 1.708zm1.946 11.597H3.392v-9.646h3.891v9.646zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z" />
+                        </svg>
+                    </a>
+                    <a href="https://leetcode.com/u/Varun__Tyagi/" target="_blank" class="social-icon" title="LeetCode">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                            <path
+                                d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226a1.48 1.48 0 0 0-.415 1.081V19.5a1.5 1.5 0 0 0 1.5 1.5h8.268a1.5 1.5 0 0 0 1.5-1.5V7.25c0-.413-.16-.813-.438-1.106l-2.151-2.16a1.379 1.379 0 0 0-.877-.302zM12.873 15.27v-3.57h2.078v3.57zM9.5 15.27v-3.57h2.078v3.57z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: ABOUT -->
+    <section id="about" class="about">
+        <div class="section-container">
+            <div class="about-grid">
+                <div class="about-left reveal-from-left">
+                    <span class="about-kicker">ABOUT</span>
+                    <h2 class="about-headline">Building products with code and curiosity.</h2>
+
+                    <div class="about-text">
+                        <p>I'm Varun Tyagi, a Computer Science student at DIT University passionate about software
+                            development, problem solving, and building meaningful digital experiences.</p>
+                        <p>My primary focus is full-stack development while continuously strengthening my foundation in
+                            Data Structures & Algorithms.</p>
+                        <p>I enjoy creating products like AlgoFlow and exploring how great software combines
+                            performance, simplicity, and usability.</p>
+                    </div>
+                </div>
+
+                <div class="about-right">
+                    <div class="stats-grid">
+                        <article class="stat-card reveal-card" data-delay="0">
+                            <p class="stat-value"><span class="count" data-target="500">0</span>+</p>
+                            <p class="stat-label">DSA Problems Solved</p>
+                        </article>
+                        <article class="stat-card reveal-card" data-delay="90">
+                            <p class="stat-value"><span class="count" data-target="6">0</span>+</p>
+                            <p class="stat-label">Projects Built</p>
+                        </article>
+                        <article class="stat-card reveal-card" data-delay="180">
+                            <p class="stat-value">4th Year</p>
+                            <p class="stat-label">B.Tech CSE</p>
+                        </article>
+                    </div>
+
+                    <article class="focus-card reveal-card" data-delay="260">
+                        <div class="focus-card-header">
+                            <span>Current Focus</span>
+                        </div>
+                        <ul class="focus-list">
+                            <li>Full Stack Development</li>
+                            <li>Data Structures & Algorithms</li>
+                            <li>Software Developer</li>
+                        </ul>
+                    </article>
+
+                    <div class="quick-facts reveal-card" data-delay="340">
+                        <p class="quick-facts-title">Quick facts</p>
+                        <div class="fact-list">
+                            <div class="fact-item">
+                                <span class="fact-key">Degree</span>
+                                <span class="fact-value">B.Tech CSE</span>
+                            </div>
+                            <div class="fact-item">
+                                <span class="fact-key">Focus</span>
+                                <span class="fact-value">Full-stack & DSA</span>
+                            </div>
+                            <div class="fact-item">
+                                <span class="fact-key">Product</span>
+                                <span class="fact-value">AlgoFlow</span>
+                            </div>
+                            <div class="fact-item">
+                                <span class="fact-key">Style</span>
+                                <span class="fact-value">Performance, simplicity, usability</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: SKILLS -->
+    <section id="skills" class="skills">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Skills & Technologies</h2>
+            </div>
+
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">📄</div>
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🎨</div>
+                            <span>CSS</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">⚙️</div>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">⚛️</div>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">📦</div>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🚀</div>
+                            <span>Express</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🗄️</div>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <div class="skill-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">☕</div>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🌿</div>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🧩</div>
+                            <span>DSA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: PROJECTS -->
+    <section id="projects" class="projects">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+            </div>
+
+            <div class="projects-grid">
+                <!-- AlgoFlow -->
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <h3>AlgoFlow</h3>
+                        <span class="project-badge">Featured</span>
+                    </div>
+                    <p class="project-description">Interactive DSA visualization platform for learning data structures
+                        and algorithms with real-time animations.</p>
+                    <div class="project-tech">
+                        <span>Next.js</span>
+                        <span> React</span>
+                        <span> TypeScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View →</a>
+                        <a href="https://github.com/VARUNTYAGI3/algoflow" class="project-link" target="_blank">Code</a>
+                    </div>
+                </div>
+
+                <!-- DevTrack -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>DevTrack</h3>
+                        <span class="project-badge building">Building</span>
+                    </div>
+                    <p class="project-description">Developer productivity tracking platform that helps monitor progress,
+                        learning roadmap, and coding analytics.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View →</a>
+                        <a href="https://github.com/VARUNTYAGI3/DevTrack" class="project-link" target="_blank">Code</a>
+                    </div>
+                </div>
+
+                <!-- NoWave Music Player -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>NoWave Music Player</h3>
+                    </div>
+                    <p class="project-description">Modern responsive web music player with beautiful UI, playlist
+                        management, and smooth playback controls.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View →</a>
+                        <a href="https://github.com/VARUNTYAGI3/NovaWave" class="project-link" target="_blank">Code</a>
+                    </div>
+                </div>
+
+                <!-- Weather API App -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Weather API App</h3>
+                    </div>
+                    <p class="project-description">Real-time weather forecasting application with location-based weather
+                        data, forecasts, and weather charts.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View →</a>
+                        <a href="https://github.com/VARUNTYAGI3/Weather-API" class="project-link"
+                            target="_blank">Code</a>
+                    </div>
+                </div>
+
+                <!-- QR Code Generator -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>QR Code Generator</h3>
+                    </div>
+                    <p class="project-description">Instant QR code generation tool for converting URLs, text, and
+                        contact information into scannable QR codes.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View →</a>
+                        <a href="https://github.com/VARUNTYAGI3/QR-CODE-Generator" class="project-link"
+                            target="_blank">Code</a>
+                    </div>
+                </div>
+
+                <!-- To-Do List App -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>To-Do List App</h3>
+                    </div>
+                    <p class="project-description">Task management application with clean UI, local storage persistence,
+                        and productivity-focused features.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">View →</a>
+                        <a href="https://github.com/VARUNTYAGI3/TO_DO_LIST" class="project-link"
+                            target="_blank">Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: CONTACT -->
+    <section id="contact" class="contact">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Get in Touch</h2>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required class="form-input">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required class="form-input">
+                        </div>
+
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required class="form-input"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <h3>Connect</h3>
+                    <p>Feel free to reach out. I'm always happy to discuss projects, opportunities, or collaboration
+                        ideas.</p>
+                    <div class="contact-links">
+                        <a href="https://github.com/VARUNTYAGI3" target="_blank" class="contact-link">
+                            GitHub →
+                        </a>
+                        <a href="https://www.linkedin.com/in/varun-tyagi-149428281/" target="_blank"
+                            class="contact-link">
+                            LinkedIn →
+                        </a>
+                        <a href="https://leetcode.com/u/Varun__Tyagi/" target="_blank" class="contact-link">
+                            LeetCode →
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Varun Tyagi. Crafted with clean code and attention to detail.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
